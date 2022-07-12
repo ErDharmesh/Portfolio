@@ -1,0 +1,102 @@
+
+body{
+    background-color:white;
+}
+nav{
+    color: aliceblue;
+    background-color:lavenderblush;
+    display: flex;
+    justify-content: space-around;   
+}
+
+.a{
+    display: flex;
+}
+ 
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    position: absolute;
+    right:10px;    
+    display: flex;
+
+} 
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+    color: blue
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: green
+  }
+span:hover{
+    color: red;
+}
+
+.center{
+    color: purple;
+        padding-left:150px;
+    padding-right: 150px;
+    
+
+    
+}
+p{
+    font-size:20px;
+    color:purple;
+}
+h1{
+    box-sizing: 10px;
+    box-shadow: 5px 5px 5px magenta;
+}
+
+h2{ 
+    font-size: 30px;
+    box-sizing: 5px;
+    box-shadow: 10px 10px 10px black ;
+    border-radius: 6px;
+    background-color: lavenderblush;
+}
+
+h3,h4{
+    font-size: 22px;
+    color: crimson;    
+}
+ul{
+    font-size: 20px;
+}
+ol{
+    font-size: 20px;
+}
+li{
+    padding: 5px;
+}
+.flex{
+    display: flex;
+    justify-content:space-between
+}
+.dh{
+    display: flex;
+    flex-direction: column;
+    
+}
+h2:hover{
+    color:darkred;
+}
+
+.f{
+    display: flex;
+    justify-content: space-between;
+}
