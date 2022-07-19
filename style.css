@@ -108,6 +108,7 @@ li :first-child{
 
     width: 150px;
     font-weight: 100;
+    color: red;
 }
 .first-child{
     display: flex; 
