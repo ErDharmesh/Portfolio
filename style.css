@@ -107,8 +107,7 @@ h2:hover{
 li :first-child{
 
     width: 150px;
-    font-weight: 100;
-    color: red;
+    font-weight:bold;
 }
 .first-child{
     display: flex; 
