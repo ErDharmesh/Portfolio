@@ -3,7 +3,7 @@ body{
     background-color:white;
     font-family: 'Tangerine', serif;
     font-size: 48px;
-    text-shadow: 4px 4px 4px black;
+    text-shadow: 4px 4px 4px lightgray;
 }
 nav{
     color: aliceblue;
