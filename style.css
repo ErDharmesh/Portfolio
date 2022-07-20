@@ -60,6 +60,7 @@ p{
     color:purple;
 }
 h1{
+    color: aliceblue;
     box-sizing: 10px;
     box-shadow: 5px 5px 5px magenta;
     background: #8A2387;  /* fallback for old browsers */
@@ -68,7 +69,7 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
 
 }
 
-h2{ 
+h2{ color: aliceblue;
     font-size: 30px;
     box-sizing: 5px;
     box-shadow: 10px 10px 10px black ;
