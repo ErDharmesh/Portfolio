@@ -1,3 +1,30 @@
+@keyframes anime {
+    from{
+        background: #800080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    to{
+        background: #00F260;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+}
+@keyframes anime1 {
+
+    from{
+     background:red;
+    }
+    to{
+        background: #03001e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    
+}
 
 body{
     background-color:white;
@@ -152,7 +179,6 @@ animation: anime 1s ease 0s infinite normal ;
         font-size: 20px;
     }
 }
-
 button{
     font-size: 18px;
     font-weight:bold;
@@ -164,6 +190,11 @@ background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-2
 background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 animation: anime1 .6s ease-in 0s infinite normal ;
 box-shadow: rgb(50, 28, 146) 0px 0px 9px ;
+}
+button:hover{
+    position: relative;
+    transform:scale(1.2,1.2);
+    animation: anime 1s ease 0s infinite normal ;
 }
 @media(max-width:400px){
    button{ font-size: 10px;
@@ -249,33 +280,7 @@ li :first-child{
     display: flex; 
 
 }
-@keyframes anime {
-    from{
-        background: #800080;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    }
-    to{
-        background: #00F260;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    }
-}
-@keyframes anime1 {
-
-    from{
-     background:red;
-    }
-    to{
-        background: #03001e;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    }
-    
-}
 .msg{
     position:relative; 
     left: 95px;
